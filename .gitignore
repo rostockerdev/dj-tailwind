@@ -21,7 +21,7 @@ venv/
 migrations/
 
 # Javascript
-node_modules/
+theme/static_src/node_modules/
 build
 
 # Environment Variables

@@ -13,9 +13,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 #     APPLICATION CONFIGURATION           #
 ###########################################
 LOCAL_APPS = [
+    "theme",
 ]
 
 THIRDPARTY_APPS = [
+    "tailwind",
 ]
 
 
@@ -125,3 +127,10 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 ###########################################
 
 MESSAGE_TAGS = {messages.ERROR: "danger"}
+
+###########################################
+#          NPM  CONFIGURATION             #
+###########################################
+
+TAILWIND_APP_NAME = 'theme'
+NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
